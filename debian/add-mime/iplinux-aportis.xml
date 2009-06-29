@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="application/x-aportisdoc">
+    <comment>AportisDoc document</comment>
+    <sub-class-of type="application/x-palm-database"/>
+    <generic-icon name="x-office-document"/>
+    <magic priority="80">
+      <match value="TEXtREAd" type="string" offset="60"/>
+      <match value="TEXtTlDc" type="string" offset="60"/>
+    </magic>
+    <glob pattern="*.pdb"/>
+    <glob pattern="*.pdc"/>
+  </mime-type>
+</mime-info>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="application/x-zip-compressed-fb2">
+    <comment>Fictionbook document</comment>
+    <magic priority="80">
+      <match value="PK\003\004" type="string" offset="0">
+        <match value=".fb2" type="string" offset="20:1024"/>
+      </match>
+    </magic>
+    <glob pattern="*.fb2.zip"/>
+  </mime-type>
+</mime-info>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="application/x-ztxt+palm-database">
+    <sub-class-of type="application/x-palm-database"/>
+    <comment>zTXT book</comment>
+    <magic priority="80">
+      <match type="string" offset="60" value="zTXT"/>
+    </magic>
+  </mime-type>
+</mime-info>
